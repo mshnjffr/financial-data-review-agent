@@ -12,7 +12,7 @@ dotenv.load_dotenv()
 # Constants
 SG_TOKEN = os.getenv("sg_token")
 SG_CHAT_ENDPOINT = os.getenv("sg_chat_endpoint")
-SG_MODELS_ENDPOINT = os.getenv("sg_models_endpoint", "https://demo.sourcegraph.com/.api/models")
+SG_MODELS_ENDPOINT = os.getenv("sg_models_endpoint")
 X_REQUESTED_WITH = os.getenv("x_requested_with")
 
 # Function to fetch available models
